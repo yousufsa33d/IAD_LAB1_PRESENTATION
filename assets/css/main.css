@@ -916,6 +916,7 @@ svg path {
 @media (max-width: 768px) {
   #featured {
     margin: 15px auto;
+    width: 1700px;
   }
 }
 
