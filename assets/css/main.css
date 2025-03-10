@@ -18,6 +18,7 @@ html {
 }
 body {
   margin: 0;
+  font-size: 18px; /* Increased from 16px */
 }
 article,
 aside,
@@ -263,7 +264,7 @@ th {
 }
 body {
   background-color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   font-family: "LMRomanSlant10", serif;
   color: #111;
@@ -272,7 +273,7 @@ body {
 }
 @media (max-width: 415px) {
   body {
-    font-size: 14px;
+    font-size: 16px; /* Increased from 14px */
   }
 }
 ::-moz-selection {
@@ -317,32 +318,33 @@ h6 {
 }
 .huge,
 h1 {
-  font-size: 68px;
+  font-size: 72px; /* Increased from 68px */
   line-height: 1.05;
   letter-spacing: -1px;
 }
 .large,
 h2 {
-  font-size: 42px;
+  font-size: 46px; /* Increased from 42px */
   line-height: 1.14;
 }
 .bigger,
 h3 {
-  font-size: 26px;
+  font-size: 30px; /* Increased from 26px */
   line-height: 1.38;
 }
 .big,
 h4 {
-  font-size: 22px;
+  font-size: 26px; /* Increased from 22px */
   line-height: 1.38;
 }
 .small,
 small {
-  font-size: 10px;
+  font-size: 12px; /* Increased from 10px */
   line-height: 1.2;
 }
 p {
   margin: 0 0 20px 0;
+  font-size: 20px;
 }
 em {
   font-style: italic;
@@ -357,39 +359,7 @@ hr {
   margin: 10px 0 30px;
   height: 0;
 }
-svg {
-  position: absolute;
-  height: 100%;
-}
-svg path {
-  fill: #e3e3e3;
-}
-#home svg {
-  left: 10px;
-}
-#about svg,
-#featured svg,
-#three-slide svg {
-  left: 90px;
-}
-#full-slide svg {
-  left: 0;
-  opacity: 0.1;
-  z-index: 9;
-}
-#contact svg {
-  left: 0;
-}
-@media (max-width: 640px) {
-  #home svg,
-  #about svg,
-  #featured svg,
-  #three-slide svg,
-  #full-slide svg,
-  #contact svg {
-    left: 0;
-  }
-}
+
 .nav {
   visibility: hidden;
   position: absolute;
@@ -570,14 +540,14 @@ svg path {
 #home .wrapper .welcome h1 {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 42px;
+  font-size: 46px; /* Increased from 42px */
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 100;
 }
 @media (max-width: 640px) {
   #home .wrapper .welcome h1 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 34px; /* Increased from 30px */
   }
 }
 #home .wrapper .welcome p {
@@ -618,8 +588,8 @@ svg path {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
+    text-align: center;
   }
   #home .wrapper .intro {
     display: none;
@@ -639,7 +609,6 @@ svg path {
   position: relative;
   width: 1440px;
   max-width: 95%;
-  height: 600px;
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
@@ -658,7 +627,7 @@ svg path {
   width: 1180px;
   max-width: 95%;
   height: 100%;
-  margin: 0 auto;
+  margin: 50px auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -676,14 +645,14 @@ svg path {
 #about .wrapper .blurb h2 {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 42px;
+  font-size: 46px; /* Increased from 42px */
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 100;
 }
 @media (max-width: 640px) {
   #about .wrapper .blurb h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 34px; /* Increased from 30px */
   }
 }
 #about .wrapper .blurb h2:before {
@@ -747,8 +716,8 @@ svg path {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
+    text-align: center;
   }
   #about .wrapper .blurb h2:before {
     display: none;
@@ -897,7 +866,6 @@ svg path {
   position: relative;
   width: 1440px;
   max-width: 95%;
-  height: 600px;
   margin: 30px auto;
   background-color: #efefef;
   overflow: hidden;
@@ -907,8 +875,8 @@ svg path {
   position: relative;
   width: 1440px;
   max-width: 95%;
-  height: 600px;
   margin: 30px auto;
+
   background-color: #efefef;
   overflow: hidden;
 }
@@ -920,7 +888,7 @@ svg path {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   #team {
     margin: 15px auto;
   }
@@ -934,7 +902,7 @@ svg path {
   width: 1180px;
   max-width: 95%;
   height: 100%;
-  margin: 0 auto;
+  margin: 30px auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -950,7 +918,7 @@ svg path {
   width: 1180px;
   max-width: 95%;
   height: 100%;
-  margin: 0 auto;
+  margin: 30px auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -988,7 +956,7 @@ svg path {
 #team .wrapper .blurb h2 {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 42px;
+  font-size: 46px; /* Increased from 42px */
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 100;
 }
@@ -1002,11 +970,11 @@ svg path {
 @media (max-width: 640px) {
   #team .wrapper .blurb h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 34px; /* Increased from 30px */
   }
 }
 #featured .wrapper .blurb p {
-  max-width: 400px;
+  max-width: 600px;
   margin-bottom: 30px;
 }
 #featured .wrapper .featured {
@@ -1030,8 +998,8 @@ svg path {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
+    text-align: center;
   }
   #featured .wrapper .blurb:after {
     display: none;
@@ -1079,8 +1047,8 @@ svg path {
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end;
-    text-align: right;
+    align-items: center;
+    text-align: center;
   }
   #team .wrapper .blurb:after {
     display: none;
@@ -1267,8 +1235,6 @@ svg path {
 }
 
 .team-member p {
-  margin-top: 10px;
-  font-size: 18px;
   font-weight: bold;
 }
 
@@ -1281,11 +1247,5 @@ svg path {
     flex: 1 1 100%;
     max-width: 100%;
     margin: 10px 0;
-  }
-}
-
-@media (max-width: 640px) {
-  .team-member p {
-    font-size: 10px;
   }
 }
